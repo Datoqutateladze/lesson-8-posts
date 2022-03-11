@@ -1,0 +1,99 @@
+/* .li-users {
+    display: flex;
+    flex-direction: column;
+}
+#user-list {
+    display: flex;
+}
+.image-class {
+    height: 100px;
+    object-fit: contain;
+} */
+
+/* posts */
+.posts {
+    background-color: grey;
+    padding:30px;
+    margin-bottom:30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 250px;
+}
+
+/* overlay styles */
+.overlay {
+    position: fixed;
+    top:20px;
+    left:430px;
+    width: 300px;
+    background-color: grey;
+    opacity: 70%;
+    display: none;
+}
+
+.overlay.active {
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top:20px;
+    right: 150px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+.title{
+    display: inline-block;
+}
+
+.hh11{
+    display: inline-block;
+}
+
+.content{
+    color:white;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.add-post {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    left: 300px;
+    bottom: 50px;
+    font-size: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.overlay-add {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    background-color:blueviolet;
+    opacity: 80%;
+    display: none;
+}
+.overlay-add.activeAdd {
+    display: block;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#descr{
+    margin-top:10px;
+}
